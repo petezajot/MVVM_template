@@ -1,0 +1,66 @@
+{
+	CFBundleIdentifier = {
+		"DefaultCompletionName" = MyView;
+		Description = "This generates a new configurator to set up your scene";
+		Kind = "Xcode.IDEKit.TextSubstitutionFileTemplateKind";
+		Options = (
+			{
+				Description = "The name of the scene to create";
+				Identifier = viewName;
+				Name = "New Scene Name:";
+				NotPersisted = YES;
+				Required = YES;
+				Type = text;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___";
+				Identifier = productName;
+				Type = static;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___View";
+				Description = "The view name";
+				Identifier = viewName;
+				Name = "View Name:";
+				Required = YES;
+				Type = static;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___";
+				Identifier = productName;
+				Type = static;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___ViewModel";
+				Description = "The viewModel name";
+				Identifier = "viewModelName:";
+				Name = "ViewModel Name:";
+				Required = YES;
+				Type = static;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___";
+				Identifier = productName;
+				Type = static;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___Model";
+				Description = "The model name";
+				Identifier = modelName;
+				Name = "Model Name:";
+				Required = YES;
+				Type = static;
+			},
+			{
+				Default = "___VARIABLE_viewName:identifier___";
+				Identifier = productName;
+				Type = static;
+			},
+		);
+		Platforms = (
+			"com.apple.platform.iphoneos",
+		);
+		SortOrder = 6;
+		Summary = "This generates a new configurator to set up your scene";
+	};
+}
