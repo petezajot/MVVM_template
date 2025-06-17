@@ -5,7 +5,7 @@ import SwiftUI
 extension ___VARIABLE_sceneName___View {
     func configuredView() -> some View {
         var view = self
-        let viewModel = ___VARIABLE_sceneName___ViewModel()
+        let viewModel = ViewModel()
         view.viewModel = viewModel
         viewModel.model = model
         return view
