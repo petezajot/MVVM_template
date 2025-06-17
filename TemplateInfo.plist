@@ -1,66 +1,111 @@
-{
-	CFBundleIdentifier = {
-		"DefaultCompletionName" = MyView;
-		Description = "This generates a new configurator to set up your scene";
-		Kind = "Xcode.IDEKit.TextSubstitutionFileTemplateKind";
-		Options = (
-			{
-				Description = "The name of the scene to create";
-				Identifier = viewName;
-				Name = "New Scene Name:";
-				NotPersisted = YES;
-				Required = YES;
-				Type = text;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___";
-				Identifier = productName;
-				Type = static;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___View";
-				Description = "The view name";
-				Identifier = viewName;
-				Name = "View Name:";
-				Required = YES;
-				Type = static;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___";
-				Identifier = productName;
-				Type = static;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___ViewModel";
-				Description = "The viewModel name";
-				Identifier = "viewModelName:";
-				Name = "ViewModel Name:";
-				Required = YES;
-				Type = static;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___";
-				Identifier = productName;
-				Type = static;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___Model";
-				Description = "The model name";
-				Identifier = modelName;
-				Name = "Model Name:";
-				Required = YES;
-				Type = static;
-			},
-			{
-				Default = "___VARIABLE_viewName:identifier___";
-				Identifier = productName;
-				Type = static;
-			},
-		);
-		Platforms = (
-			"com.apple.platform.iphoneos",
-		);
-		SortOrder = 6;
-		Summary = "This generates a new configurator to set up your scene";
-	};
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>Description</key>
+	<string>This generates a new configurator to set up your scene</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___View</string>
+			<key>Description</key>
+			<string>The view name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+			<key>Description</key>
+			<string>The viewModel name</string>
+			<key>Identifier</key>
+			<string>viewModelName:</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Model</string>
+			<key>Description</key>
+			<string>The model name</string>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Name</key>
+			<string>Model Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>6</string>
+	<key>Summary</key>
+	<string>This generates a new configurator to set up your scene</string>
+</dict>
+</plist>

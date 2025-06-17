@@ -2,10 +2,10 @@
 
 import SwiftUI
 
-extension ___VARIABLE_viewName___View {
+extension ___VARIABLE_sceneName___View {
     func configuredView() -> some View {
         var view = self
-        let viewModel = ___VARIABLE_viewName__ViewModel()
+        let viewModel = ___VARIABLE_sceneName___ViewModel()
         view.viewModel = viewModel
         viewModel.model = model
         return view
@@ -13,9 +13,9 @@ extension ___VARIABLE_viewName___View {
     
 }
 
-struct ___VARIABLE_viewName___View: View {
-    @ObservedObject var model = ___VARIABLE_viewName__Model()
-    var viewModel: ___VARIABLE_viewName__ViewModel?
+struct ___VARIABLE_sceneName___View: View {
+    @ObservedObject var model = ___VARIABLE_sceneName___Model()
+    var viewModel: ___VARIABLE_sceneName___ViewModel?
     
     var body: some View {
         VStack {
@@ -34,5 +34,5 @@ struct ___VARIABLE_viewName___View: View {
 }
 
 #Preview {
-    ___VARIABLE_viewName___View()
+    ___VARIABLE_sceneName___View()
 }
