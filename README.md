@@ -1,2 +1,2 @@
 # MVVM_template
-Template for MVVM swiftUI
+Add to: /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
