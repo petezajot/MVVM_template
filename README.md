@@ -1,3 +1,3 @@
 # MVVM_template
 Agregar esta carpeta a: /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
-Agregar extensión .xctemplate despues de pegar en "File Templates"
+Agregar extensión al nombre de la carpeta (.xctemplate) después de pegar en "File Templates"
