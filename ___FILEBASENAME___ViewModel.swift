@@ -7,9 +7,9 @@ protocol ___VARIABLE_sceneName___Protocol {
 }
 
 final class ___VARIABLE_sceneName___ViewModel: ObservableObject,  ___VARIABLE_sceneName___Protocol {
-    @Published var model: ___VARIABLE_sceneName___Model?
+    @Published var model = ___VARIABLE_sceneName___Model()
     
     func increment() {
-        model?.number += 1
+        model.number += 1
     }
 }
