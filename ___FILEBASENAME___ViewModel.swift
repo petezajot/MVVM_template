@@ -2,16 +2,14 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___ViewModel {
+protocol ___VARIABLE_sceneName___Protocol {
     func increment()
 }
 
-extension ___VARIABLE_viewName___ {
-    class ViewModel: ___VARIABLE_sceneName___ViewModel {
-        var model: ___VARIABLE_sceneName___ModelProtocol?
-        
-        func increment() {
-            model?.number += 1
-        }
+final class ___VARIABLE_sceneName___ViewModel: ObservableObject,  ___VARIABLE_sceneName___Protocol {
+    @Published var model: ___VARIABLE_sceneName___Model?
+    
+    func increment() {
+        model?.number += 1
     }
 }
