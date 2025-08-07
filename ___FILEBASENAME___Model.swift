@@ -3,5 +3,5 @@
 import Foundation
 
 struct ___VARIABLE_sceneName___Model: Codable {
-    var number: Int = 0
+    var number: Int
 }
