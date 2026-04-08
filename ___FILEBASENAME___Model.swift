@@ -1,7 +1,12 @@
 //___FILEHEADER___
 
 import Foundation
+import Combine
 
-struct ___VARIABLE_sceneName___Model: Codable {
-    var number: Int
+class ___VARIABLE_sceneName___Model {
+    @Published var number: Int
+
+    init(number: Int) {
+        self.number = number
+    }
 }
