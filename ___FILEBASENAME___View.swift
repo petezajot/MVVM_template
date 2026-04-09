@@ -10,7 +10,7 @@ struct ___VARIABLE_sceneName___View: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Count \(viewModel.model?.number ?? 0)")
+            Text("Count \(viewModel.number)")
                 .frame(maxWidth: .infinity, maxHeight: 45)
                 .background(.green)
                 .onTapGesture {
